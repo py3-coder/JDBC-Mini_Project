@@ -1,3 +1,6 @@
+/*Author ~ Saurabh Kumar
+@copyright 2021
+*/
 /*Define a Java Class Main and in main method write code to load driver and establish connection
 with database.*/
 
