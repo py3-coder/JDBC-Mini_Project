@@ -20,7 +20,8 @@ public class JDBC1 {
 		
 		try {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		con =DriverManager.getConnection(url,"username","password");
+			//user password ---taken care
+		con =DriverManager.getConnection(url,"user","password");
 		 System.out.println("Connection stablished.");
 		
 		String sql="Create Table Student "+"(studentId int Not null Primary key ,"+ "StudentName varchar(10),"+"Branch varchar(20), "+"Percentage double precision )";
