@@ -21,6 +21,10 @@ public class JDBC_TEST {
         conn =DriverManager.getConnection(url,"username","password");
        System.out.println("Connection stablished");
        
+       /*Write Quarry in this part 
+       my database have table student fetching data from student 
+       running a simple quarry..*/
+      
        /*String sql ="Select * From Student";
        pst=conn.prepareStatement(sql);
        res =pst.executeQuery();
